@@ -4,14 +4,14 @@
  
  Generally, `enum`s are a way to model a type that can only contain a limited range of values. Let's step back and consider for a second what that means. A _type_ in a programming language describes a range of _values_. Let's consider a few examples:
  
- The type `UInt8` in Swift has as values all _ unsigned integers_ that can be created out of 8 bits, more precisely, the range of values will be all integers from 0 to 255.
+ The type `UInt8` in Swift has as values all _unsigned integers_ that can be created out of 8 bits, more precisely, the range of values will be all integers from 0 to 255.
  
  The type `String` in Swift describes all possible sequences of characters, so it has an _infinite_ range.
  
  A custom type `Person` that looks like this
  ```
  struct Person {
- let name: String
+   let name: String
  }
  ```
  can describe any person with any `name` (which is a `String`, so again we will have an infinite range of values for the type `Person`).
